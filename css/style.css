@@ -1,0 +1,302 @@
+/* Navbar */
+
+header{
+    width: 100%;
+    background-color: #f00404;
+}
+
+header img{
+    height: 30px;
+    width: 30px;
+}
+
+header .img-logo{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 250, 21);
+    border-radius: 100%;
+}
+
+header form{
+    width: 65%;
+}
+
+header form .lupa{
+    margin-left: -5px;
+}
+
+header button{
+    margin: 0px 5px;
+}
+
+header a{
+    color: #8b0a0a;
+    text-decoration: none;
+}
+
+header #menubar{
+    width: 100%;
+    margin-left: -50px;
+    margin-bottom: -24px;
+}
+
+header #menubar ul{
+    text-align: center;
+}
+
+header #menubar li{
+    height: 40px;
+    width: 240px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 8px;
+    padding: 0px 5px;
+}
+
+header #menubar a{
+    font-size: 20px;
+    margin: 0px 13px;
+    text-decoration: none;
+    color: #1e8530;
+}
+
+header #menubar li:hover{
+    background-color: #1BB6D9;
+}
+
+/* main */
+
+body{
+    color: #fff;
+    background-color: #212121;
+}
+
+/* primeira seção */
+
+.banner-home{
+    width: 100%;
+    height: 450px;
+}
+
+.banner-home img{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+.banner-home .texto-menu{
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.banner-home .texto-menu h1{
+    font-size: 40px;
+    width: 100%;
+    margin-top: -45px;
+    text-align: center;
+}
+
+.banner-home .texto-menu p{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+/* segunda seção */
+
+#carouselExampleCaptions{
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+}
+
+#carouselExampleCaptions img{
+    width: 60%;
+    height: 600px;
+}
+
+/* terceira seção */
+
+main .card-bar{
+    width: 80%;
+}
+
+main .vendidos{
+    text-align: center;
+}
+
+main .vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+main .vendidos img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+main .vendidos .card{
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+main .vendidos .preco{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* footer */
+footer{
+    color: #fff;
+    background-color: #fffcfc;
+    padding-top: 25px;
+}
+
+footer a{
+    color: #DE3B3B;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer #info{
+    font-size: 15px;
+}
+
+footer #info-cnpj{
+    font-size: 12px;
+}
+
+footer #info-inrvl{
+    font-size: 8px;
+}
+
+footer h3 img{
+    height: 50px;
+    width: 200px;
+}
+
+footer .rede-sociais{
+    display: flex;
+}
+
+footer img{
+    height: 25px;
+    width: 25px;
+}
+
+footer .rs-icon{
+    margin-left: 10px;
+}
+
+footer .copyright{
+    height: 27px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}   
+
+/*Botão Voltar topo*/
+
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    border-radius: 30%;
+}
+
+#voltar-topo:hover{
+    background-color: #ffffff;
+}
+
+/* Página Login */
+
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+
+/* @media screen */
+
+@media screen and (max-width: 768px) {
+    #banner-esquerda{
+        padding: 0px 20px 20px;
+    }
+    #banner-direita #texto-esq, #banner-direita #texto-dir{
+        width: 100%; 
+        text-align: center; 
+        margin-top: 20px;
+        display: flex;
+        position: absolute;
+    }
+    #banner-direita #texto-esq h1{
+        padding-top: 150px;
+        font-size: 18px;
+        color: #1BB6D9;
+    }
+    #banner-direita #texto-dir h1{
+        margin-top: 450px;
+        font-size: 18px;
+        color: #1BB6D9;
+    }
+    #banner-direita #texto-esq p, #banner-direita #texto-dir p{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    #banner-esquerda #img-esq, #banner-esquerda #img-dir{
+        width: 100%;
+        height: 380px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-top: 195px;
+        float: none;
+    }
+    #carouselExampleCaptions{
+        display: none;
+    }
+    .nav{
+        margin-top: 600px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    #banner-direita #texto-esq h1{
+        padding-top: 150px;
+        font-size: 25px;
+    }
+    #banner-direita #texto-dir h1{
+        margin-top: 150px;
+        font-size: 25px;
+    }
+    #carouselExampleCaptions{
+        width: 100%;
+        margin-top: 100px;
+    }
+}
